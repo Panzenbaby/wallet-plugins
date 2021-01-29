@@ -1,5 +1,5 @@
 {
-  "name": "desktop-wallet-explorer-v3",
+  "name": "@arkecosystem/desktop-wallet-explorer-v3",
   "version": "0.0.1",
   "description": "Use the ARK Mainnet explorer directly within the wallet",
   "main": "dist/desktop-wallet-explorer-v3.cjs.js",
