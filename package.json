@@ -2,9 +2,10 @@
   "name": "@arkecosystem/desktop-wallet-explorer-v3",
   "version": "0.0.1",
   "description": "Use the ARK Mainnet explorer directly within the wallet",
-  "main": "dist/desktop-wallet-explorer-v3.cjs.js",
+  "main": "dist/arkecosystem-desktop-wallet-explorer-v3.cjs.js",
   "author": "Lucio <lucio@ark.io>",
   "license": "MIT",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ark-ecosystem-desktop-plugins/explorer-v3.git"
@@ -33,6 +34,7 @@
   ],
   "homepage": "https://github.com/ark-ecosystem-desktop-plugins/explorer-v3#readme",
   "scripts": {
+    "prepublishOnly": "yarn build",
     "build": "preconstruct build"
   },
   "dependencies": {
