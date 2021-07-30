@@ -4,7 +4,7 @@
 
 ## Installation
 
-Install this plugin directly through the Plugin Manager of the Payvo Wallet. Alternatively you can clone this repository and copy this the `ark-explorer` folder into `~/.payvo-wallet/plugins/`.
+Install this plugin directly through the Plugin Manager of the Payvo Wallet. Alternatively you can clone this repository and copy the `ark-explorer` folder into `~/.payvo-wallet/plugins/`.
 
 ## Credits
 
