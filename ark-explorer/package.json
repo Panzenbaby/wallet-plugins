@@ -12,7 +12,7 @@
   },
   "desktop-wallet": {
     "title": "ARK Explorer",
-    "logo": "https://raw.githubusercontent.com/payvohq/wallet-plugins/ark-explorer/master/images/logo.png",
+    "logo": "https://raw.githubusercontent.com/payvohq/wallet-plugins/master/ark-explorer/images/logo.png",
     "categories": [
       "utility"
     ],
