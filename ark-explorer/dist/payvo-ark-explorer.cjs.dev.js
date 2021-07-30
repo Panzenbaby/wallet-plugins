@@ -9,18 +9,19 @@ function _interopDefault (e) { return e && e.__esModule ? e : { 'default': e }; 
 var React__default = /*#__PURE__*/_interopDefault(React);
 
 const explorerUrls = {
-  "ARK Explorer - APN": "https://explorer.ark.io/",
-  "ARK Explorer - APN Devnet": "https://dexplorer.ark.io/"
+  "Mainnet": "https://explorer.ark.io/",
+  "Devnet": "https://dexplorer.ark.io/"
 };
 var index = (api => {
   const App = () => {
-    const [selectedLabel, setSelectedLabel] = React__default['default'].useState("ARK Explorer - APN");
+    const [selectedLabel, setSelectedLabel] = React__default['default'].useState("Mainnet");
     return /*#__PURE__*/React__default['default'].createElement("section", {
       className: "flex-1 border-t-3 border-theme-danger-500 bg-theme-neutral-200 flex flex-col justify-center"
     }, /*#__PURE__*/React__default['default'].createElement("div", {
       className: "flex items-center justify-center divide-x divide-theme-secondary-600 py-4 shadow-md z-20"
-    }, Object.keys(explorerUrls).map(explorerLabel => /*#__PURE__*/React__default['default'].createElement("button", {
-      className: `px-4 py-2 ${selectedLabel === explorerLabel ? 'font-bold' : ''}`,
+    }, Object.keys(explorerUrls).map((explorerLabel, index) => /*#__PURE__*/React__default['default'].createElement("button", {
+      key: index,
+      className: `px-4 py-2 w-30 ${selectedLabel === explorerLabel ? "font-bold" : ""}`,
       onClick: () => setSelectedLabel(explorerLabel)
     }, explorerLabel))), /*#__PURE__*/React__default['default'].createElement("webview", {
       className: "w-full h-full",
