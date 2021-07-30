@@ -1,8 +1,8 @@
 {
-  "name": "@payvo/ark-explorer",
+  "name": "@payvo/ark-explorer-wallet-plugin",
   "version": "1.0.0",
   "description": "Use the ARK Mainnet and Devnet Explorers directly within the Pavyo wallet",
-  "main": "dist/payvo-ark-explorer.cjs.js",
+  "main": "dist/payvo-ark-explorer-wallet-plugin.cjs.js",
   "author": "Lúcio Rubens",
   "license": "MIT",
   "private": false,
