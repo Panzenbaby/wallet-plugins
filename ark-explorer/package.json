@@ -8,7 +8,8 @@
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/payvohq/wallet-plugins.git"
+		"url": "git+https://github.com/payvohq/wallet-plugins.git",
+		"directory": "ark-explorer"
 	},
 	"desktop-wallet": {
 		"title": "ARK Explorer",
